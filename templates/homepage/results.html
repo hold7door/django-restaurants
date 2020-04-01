@@ -1,0 +1,105 @@
+{% extends "homepage/base.html" %}
+
+{% load static %}
+
+{% block content %}
+	{% if rest_count > 0 %}
+		{% for obj in all_restaurants %}
+		{% with rest_id=obj.rest_id name=obj.name cost=obj.cost currency=obj.currency has_table=obj.has_table has_online=has_online rating=obj.rating votes=obj.votes cuisines=obj.cuisines%}	
+			<div id="mydiv{{ forloop.counter }}" class="blocks flexer-1 bg-white rounded infinite-item">
+				<div id="pic" class="rounded-circle flexer bg-dark position-r"></div>
+				<h1 class="text position-r h">{{ name }}</h1>
+				<span class="not-spl position-r"><p>Average Cost for 2: <kbd class="bg-success">{{ cost }}</kbd></p></span>
+				<span class="rounded"></span>
+				<kbd id="rat" class="bg-success position-r whoa">Rating: {{ rating }}</kbd>
+				<div id="meddiv" class="position-r labeld hell visible">
+					{% for cuis in cuisines %}
+						{% if forloop.counter < 3 %}
+								<span id="div1" class="spl2" style="background: linear-gradient(50deg,rgb(87, 51, 234), rgb(72, 148, 255) 70%);">
+								{{ cuis }}
+								</span>
+						{% endif %}
+					{% endfor %}
+				</div>
+				<div id="meddiv2" class="position-r hello medd2">
+					{% for cuis in cuisines %}
+							<span id="div1" class="spl2" style="background: linear-gradient(50deg,rgb(87, 51, 234), rgb(72, 148, 255) 70%);">
+							{{ cuis }}
+							</span>
+					{% endfor %}
+				</div>
+			   <button type="button" id="myb" class="btn btn-secondary position-r spl" onclick="clicke(this)">See More</button>
+				<span id="add" class="position-r adda a">
+				Currency : {{ currency }}<br/>
+				{% if has_table == "Yes" %}
+					Table Booking Available<br/>
+				{% endif %}            	
+				{% if has_online == "Yes" %}
+					Online Delivery Available<br/>
+				{% endif %}            		    
+				{{ votes }} Votes
+				</span>
+			</div>
+		{% endwith %}			
+		{% endfor %}
+	{% else %}
+			<div class="alert alert-success text-center" role="alert">
+				No Restaurant Found!
+			</div>
+	{% endif %}
+{% endblock content %}
+
+
+{% block filterForm %}
+	<form class="filter-f" method="get" action="/" >
+			<label for="cost-for-two" >Average Cost for two : </label>
+			<input type="range" class="custom-range" id="cost-for-two" min="1000" max="10000" step="1000" name="cost-for-two" value="{{ costfortwo }}">
+			<p style="text-align:center;"> Cost &lt; <span id="cost-range-value"></span></p>
+			
+			<label for="rating"> Customer Rating : </label>
+			<div class="custom-control custom-checkbox rating-box">
+				<input type="checkbox" class="custom-control-input" id="rating-4" name="rating-4" {% if rating_4 == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="rating-4">4 &amp; above</label><br/>
+			</div>
+			<div class="custom-control custom-checkbox rating-box">
+				<input type="checkbox" class="custom-control-input" id="rating-3" name="rating-3" {% if rating_3 == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="rating-3">3 &amp; above</label><br/>
+			</div>
+			<div class="custom-control custom-checkbox rating-box">
+				<input type="checkbox" class="custom-control-input" id="rating-2" name="rating-2" {% if rating_2 == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="rating-2">2 &amp; above</label><br/>
+			</div>
+			<div class="custom-control custom-checkbox rating-box">
+				<input type="checkbox" class="custom-control-input" id="rating-1" name="rating-1" {% if rating_1 == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="rating-1">1 &amp; above</label><br/>
+			</div>		
+			<br/>
+		  <fieldset class="form-group">
+				<div class="row">
+						<div class="col-sm-10">
+							 <div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="filter-switch-1" name="filter-switch" value="cost" {% if filter_switch == 'cost' %} checked {% endif %}>
+								<label class="custom-control-label" for="filter-switch-1">By Cost</label>
+							</div>
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="filter-switch-2" name="filter-switch"  value="votes" {% if filter_switch == 'votes' %} checked {% endif %}>
+								<label class="custom-control-label" for="filter-switch-2">By Votes</label>
+							</div>
+						</div>
+				</div>
+			</fieldset>
+			<label for="filters">Filters : </label>
+			<div class="custom-control custom-switch">
+				<input type="checkbox" class="custom-control-input" id="filter-switch-4" name="filter-switch-table" {% if table_filter == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="filter-switch-4">Has Table Booking</label>
+			</div>
+			<div class="custom-control custom-switch">
+				<input type="checkbox" class="custom-control-input" id="filter-switch-5" name="filter-switch-delivery" {% if delivery_filter == "on" %} checked {% endif %}>
+				<label class="custom-control-label" for="filter-switch-5">Has Online Delivery</label>
+			</div>
+			<br/>
+			<div class="filter-apply-button">
+				<button type="submit" class="btn btn-info">Apply</button>
+			</div>
+	</form>
+{% endblock filterForm %}

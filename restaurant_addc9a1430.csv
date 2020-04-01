@@ -1,0 +1,101 @@
+Restaurant ID,Country Code,City,Address,Locality,Locality Verbose,Longitude,Latitude
+6317637,162,Makati City,"Third Floor, Century City Mall, Kalayaan Avenue, Poblacion, Makati City","Century City Mall, Poblacion, Makati City","Century City Mall, Poblacion, Makati City, Makati City",121.027535,14.565443
+6304287,162,Makati City,"Little Tokyo, 2277 Chino Roces Avenue, Legaspi Village, Makati City","Little Tokyo, Legaspi Village, Makati City","Little Tokyo, Legaspi Village, Makati City, Makati City",121.014101,14.553708
+6300002,162,Mandaluyong City,"Edsa Shangri-La, 1 Garden Way, Ortigas, Mandaluyong City","Edsa Shangri-La, Ortigas, Mandaluyong City","Edsa Shangri-La, Ortigas, Mandaluyong City, Mandaluyong City",121.056831,14.581404
+6318506,162,Mandaluyong City,"Third Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City, Mandaluyong City",121.056475,14.585318
+6314302,162,Mandaluyong City,"Third Floor, Mega Atrium, SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City, Mandaluyong City",121.057508,14.58445
+18189371,162,Mandaluyong City,"Ground Floor, Mega Fashion Hall, SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City","SM Megamall, Ortigas, Mandaluyong City, Mandaluyong City",121.056314,14.583764
+6300781,162,Pasay City,"Building K, SM By The Bay, Sunset Boulevard, Mall of Asia Complex (MOA), Pasay City","SM by the Bay, Mall of Asia Complex, Pasay City","SM by the Bay, Mall of Asia Complex, Pasay City, Pasay City",120.9796667,14.53133333
+6301290,162,Pasay City,"Building B, By The Bay, Seaside Boulevard, Mall of Asia Complex (MOA), Pasay City","SM by the Bay, Mall of Asia Complex, Pasay City","SM by the Bay, Mall of Asia Complex, Pasay City, Pasay City",120.9793333,14.54
+6300010,162,Pasay City,"Plaza Level, Sofitel Philippine Plaza Manila, CCP Complex, Pasay City","Sofitel Philippine Plaza Manila, Pasay City","Sofitel Philippine Plaza Manila, Pasay City, Pasay City",120.98009,14.55299
+6314987,162,Pasig City,"Brixton Technology Center, 10 Brixton Street, Kapitolyo, Pasig City",Kapitolyo,"Kapitolyo, Pasig City",121.056532,14.572041
+6309903,162,Pasig City,"75 East Capitol Drive, Kapitolyo, Pasig City",Kapitolyo,"Kapitolyo, Pasig City",121.057916,14.567689
+6309455,162,Pasig City,"23 East Capitol Drive, Kapitolyo, Pasig City",Kapitolyo,"Kapitolyo, Pasig City",121.06082,14.570849
+6318433,162,Quezon City,"Second Floor, UP Town Center, Katipunan Avenue, Diliman, Quezon City","UP Town Center, Diliman, Quezon City","UP Town Center, Diliman, Quezon City, Quezon City",121.075419,14.649503
+6310470,162,San Juan City,"387 P. Guevarra Corner Argonne Street, Addition Hills, San Juan City",Addition Hills,"Addition Hills, San Juan City",121.0335917,14.59345
+6314605,162,San Juan City,"17 J. Abad Santos Drive, Little Baguio, San Juan City",Little Baguio,"Little Baguio, San Juan City",121.03811,14.59889
+18185059,162,Santa Rosa,"Ayala Mall, Solenad, Nuvali, Santa Rosa - Tagaytay Road, Don Jose, Santa Rosa","Nuvali, Don Jose, Santa Rosa","Nuvali, Don Jose, Santa Rosa, Santa Rosa",121.05704,14.237082
+18182702,162,Santa Rosa,"Ground Floor, Building G, Solenad 3, Nuvali, Don Jose, Santa Rosa","Solenad 3, Don Jose, Santa Rosa","Solenad 3, Don Jose, Santa Rosa, Santa Rosa",121.0565874,14.23767897
+6318213,162,Tagaytay City,"Aguinaldo Highway, Tagaytay City",Tagaytay City,"Tagaytay City, Tagaytay City",120.951589,14.101834
+18255654,162,Taguig City,"Third Floor, BGC Stopover Pavillion, Rizal Drive Corner 31st Street, Bonifacio Global City, Taguig City","BGC Stopover Pavillion, Bonifacio Global City","BGC Stopover Pavillion, Bonifacio Global City, Taguig City",121.045878,14.55436
+6308205,162,Taguig City,"Ground Floor, Netlima Building, 4th Avenue Corner 26th Street, Bonifacio Global City, Taguig City",Bonifacio Global City,"Bonifacio Global City, Taguig City",121.04622,14.549337
+6315438,162,Taguig City,"Sixth Floor, SM Aura Premier, C5 Road Corner 26th Street, Bonifacio Global City, Taguig City","SM Aura Premier, Bonifacio Global City, Taguig City","SM Aura Premier, Bonifacio Global City, Taguig City, Taguig City",121.053725,14.545858
+6310406,162,Taguig City,"Fifth Floor, SM Aura Premier, C5 Corner 26th Street, Bonifacio Global City, Taguig City","SM Aura Premier, Bonifacio Global City, Taguig City","SM Aura Premier, Bonifacio Global City, Taguig City, Taguig City",121.0534998,14.54565535
+6600681,30,Bras�_lia,"SCLN, 208, Bloco A, Loja 30, Asa Norte, Bras�_lia",Asa Norte,"Asa Norte, Bras�_lia",-47.88178889,-15.76414167
+6601005,30,Bras�_lia,"SCLN 104, Bloco A, Loja 26, Asa Norte, Bras�_lia",Asa Norte,"Asa Norte, Bras�_lia",-47.88266667,-15.7775
+6600292,30,Bras�_lia,"SCLN 210, Bloco D, Loja 36/48, Asa Norte, Bras�_lia",Asa Norte,"Asa Norte, Bras�_lia",-47.88213611,-15.75747222
+6600441,30,Bras�_lia,"CLN 110, Bloco D, Loja 28, Asa Norte, Bras�_lia",Asa Norte,"Asa Norte, Bras�_lia",-47.88816667,-15.75883333
+6600970,30,Bras�_lia,"SCS 214, Bloco C, Loja 40, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.91566667,-15.83116667
+6600379,30,Bras�_lia,"SCS 213, Bloco C, Loja 35, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.91566667,-15.831
+6600214,30,Bras�_lia,"CLS 109, Bloco A, Loja 2/6, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.9075,-15.82
+6601218,30,Bras�_lia,"SCS 212, Bloco B, Loja 26, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.91016667,-15.82733333
+6600060,30,Bras�_lia,"Edif�_cio Jos� Severo, SCS 6, Bloco A, Loja 99, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.89016667,-15.797
+6600083,30,Bras�_lia,"CLS 115, Bloco A, Loja 2, Asa Sul, Bras�_lia",Asa Sul,"Asa Sul, Bras�_lia",-47.92366667,-15.83133333
+6601515,30,Bras�_lia,"Rua 13 Norte, Lote 4, �guas Claras, Bras�_lia",�guas Claras,"�guas Claras, Bras�_lia",-48.019,-15.83716667
+6601361,30,Bras�_lia,"Avenida Arauc��rias, 1325, Loja 19, �guas Claras, Bras�_lia",�guas Claras,"�guas Claras, Bras�_lia",-48.01909167,-15.839775
+6601602,30,Bras�_lia,"Vila Malls, Avenida das Castanheiras, Lote 1060, �guas Claras, Bras�_lia",�guas Claras,"�guas Claras, Bras�_lia",-48.01666667,-15.83483333
+6601589,30,Bras�_lia,"Bras�_lia Shopping - Piso 2, SCN 5, Bloco A, Asa Norte, Bras�_lia","Bras�_lia Shopping, Asa Norte","Bras�_lia Shopping, Asa Norte, Bras�_lia",-47.889,-15.7865
+6601862,30,Bras�_lia,"Fashion Park, Shis Ql 17, Bloco G, Loja 208, Lago Sul, Bras�_lia",Lago Sul,"Lago Sul, Bras�_lia",-47.872359,-15.860621
+6601595,30,Bras�_lia,"ParkShopping - Piso 2, SAI/SO, �rea 6580, Guar�� I, Bras�_lia","ParkShopping, Guar�� I","ParkShopping, Guar�� I, Bras�_lia",-47.95628333,-15.83451389
+6601158,30,Bras�_lia,"Pont�o Lago Sul, SHIS 10, Lote 9, Lago Sul, Bras�_lia","Pont�o Lago Sul, Lago Sul","Pont�o Lago Sul, Lago Sul, Bras�_lia",-47.87283333,-15.82566667
+6600427,30,Bras�_lia,"SCES, Trecho 2, Conjunto 13/36, Setor de Clubes Esportivos Sul, Bras�_lia",Setor De Clubes Esportivos Sul,"Setor De Clubes Esportivos Sul, Bras�_lia",-47.8685,-15.819
+6600116,30,Bras�_lia,"Shopping Iguatemi - piso 1, SHIN CA 4, Lote A, Lago Norte, Bras�_lia","Shopping Iguatemi, Lago Norte","Shopping Iguatemi, Lago Norte, Bras�_lia",-47.885812,-15.720118
+6601457,30,Bras�_lia,"CLSN 301, Bloco C, Loja 86, Sudoeste, Bras�_lia",Sudoeste,"Sudoeste, Bras�_lia",-47.92102778,-15.79753056
+7303219,30,Rio de Janeiro,"Praia da Barra da Tijuca, Avenida L�_cio Costa, Ilha 25, Barra da Tijuca, Rio de Janeiro",Barra da Tijuca,"Barra da Tijuca, Rio de Janeiro",-43.377,-23.0115
+7304307,30,Rio de Janeiro,"Rua Gon�_alves Dias, 32, Centro, Rio de Janeiro",Centro,"Centro, Rio de Janeiro",-43.178826,-22.905293
+7301215,30,Rio de Janeiro,"Rua Santa Clara, 36, Copabana, Rio de Janeiro",Copacabana,"Copacabana, Rio de Janeiro",-43.18669167,-22.97207222
+7300596,30,Rio de Janeiro,"Avenida Prado Junior, 335 B, Copacabana, Rio de Janeiro",Copacabana,"Copacabana, Rio de Janeiro",-43.17583333,-22.96216667
+7300612,30,Rio de Janeiro,"Rua Ronald de Carvalho, 55, Copacabana, Rio de Janeiro",Copacabana,"Copacabana, Rio de Janeiro",-43.176,-22.96516667
+7300704,30,Rio de Janeiro,"Galeria River, Rua Francisco Otaviano, 67, Copacabana, Rio de Janeiro","Galeria River, Copacabana","Galeria River, Copacabana, Rio de Janeiro",-43.191,-22.98683333
+7300955,30,Rio de Janeiro,"Pra�_a Santos Dumont, 116, G��vea, Rio de Janeiro",G��vea,"G��vea, Rio de Janeiro",-43.227042,-22.973507
+7300521,30,Rio de Janeiro,"Rua An�_bal de Mendon�_a, 37, Ipanema, Rio de Janeiro",Ipanema,"Ipanema, Rio de Janeiro",-43.211425,-22.98520833
+7300515,30,Rio de Janeiro,"Rua Vinicius de Moraes, 49, Ipanema, Rio de Janeiro",Ipanema,"Ipanema, Rio de Janeiro",-43.203,-22.98533333
+7300483,30,Rio de Janeiro,"Rua Joana Ang�lica, 40, Ipanema, Rio de Janeiro",Ipanema,"Ipanema, Rio de Janeiro",-43.20520833,-22.98531944
+7301064,30,Rio de Janeiro,"Rua Jardim Bot�nico, 731, Jardim Bot�nico, Lagoa, Rio de Janeiro",Lagoa,"Lagoa, Rio de Janeiro",-43.219563,-22.966647
+7304312,30,Rio de Janeiro,"Le Monde, Bloco 3, Lojas A/B, Avenida das Am�ricas, 3500, Barra da Tijuca, Rio de Janeiro","Le Monde, Barra da Tijuca","Le Monde, Barra da Tijuca, Rio de Janeiro",-43.34879167,-22.99991111
+7300004,30,Rio de Janeiro,"Rua Dias Ferreira, 256, Leblon, Rio de Janeiro",Leblon,"Leblon, Rio de Janeiro",-43.227,-22.98416667
+7300868,30,Rio de Janeiro,"Avenida Ataulfo de Paiva, 1022, Lojas A e B, Leblon, Rio de Janeiro",Leblon,"Leblon, Rio de Janeiro",-43.22566667,-22.98516667
+7302637,30,Rio de Janeiro,"Rua Gustavo Sampaio, 798, Leme, Rio de Janeiro",Leme,"Leme, Rio de Janeiro",-43.17279167,-22.963925
+7302140,30,Rio de Janeiro,"Rua Gustavo Sampaio, 610, Leme, Rio de Janeiro",Leme,"Leme, Rio de Janeiro",-43.17126389,-22.96337222
+7305048,30,Rio de Janeiro,"Madureira Shopping - Loja 289/290, Piso 2, Estrada do Portela, 222, Madureira, Rio de Janeiro, RJ",Madureira,"Madureira, Rio de Janeiro",-43.341164,-22.870413
+7302898,30,Rio de Janeiro,"Rua Apraz�_vel, 62, Santa Teresa, Rio de Janeiro",Santa Teresa,"Santa Teresa, Rio de Janeiro",-43.18736944,-22.92481389
+7302859,30,Rio de Janeiro,"Rua Bar�o de Iguatemi, 379, Tijuca, Rio de Janeiro",Tijuca,"Tijuca, Rio de Janeiro",-43.21551111,-22.91370833
+7301700,30,Rio de Janeiro,"Avenida Jo�o Alves, 56, Urca, Rio de Janeiro",Urca,"Urca, Rio de Janeiro",-43.16266667,-22.94783333
+6706313,30,S�o Paulo,"Rua Avanhandava, 81, Bela Vista, S�o Paulo 10000","Bela Vista, Centro","Bela Vista, Centro, S�o Paulo",-46.64516667,-23.55066667
+6704326,30,S�o Paulo,"Rua Treze de Maio, 668, Bela Vista, S�o Paulo 01327000","Bela Vista, Centro","Bela Vista, Centro, S�o Paulo",-46.64633333,-23.559
+6711179,30,S�o Paulo,"Rua Antonio Carlos, 429, Consola�_�o, S�o Paulo",Consola�_�o,"Consola�_�o, S�o Paulo",-46.65866667,-23.55616667
+6702797,30,S�o Paulo,"Rua Ant��nio Carlos, 268, Consola�_�o, S�o Paulo",Consola�_�o,"Consola�_�o, S�o Paulo",-46.657523,-23.55671
+6700475,30,S�o Paulo,"Hotel Unique, Avenida Brigadeiro Lu�_s Ant��nio, 4700, Jardim Paulista, S�o Paulo","Hotel Unique, Jardim Paulista","Hotel Unique, Jardim Paulista, S�o Paulo",-46.666851,-23.581688
+6713413,30,S�o Paulo,"Rua Jesu�_no Arruda, 470, Itaim Bibi, S�o Paulo",Itaim Bibi,"Itaim Bibi, S�o Paulo",-46.67511,-23.582135
+6714340,30,S�o Paulo,"Rua Tabapu�, 1417, Itaim Bibi, S�o Paulo",Itaim Bibi,"Itaim Bibi, S�o Paulo",-46.683888,-23.585324
+6710645,30,S�o Paulo,"Rua Pedroso Alvarenga, 522, Itaim Bibi, S�o Paulo, SP",Itaim Bibi,"Itaim Bibi, S�o Paulo",-46.67566667,-23.581
+6700402,30,S�o Paulo,"Rua Haddock Lobo, 1240, Cerqueira C�sar, Jardim Paulista, S�o Paulo",Jardim Paulista,"Jardim Paulista, S�o Paulo",-46.666041,-23.561568
+6700846,30,S�o Paulo,"Alameda Lorena, 300, Jardim Paulista, S�o Paulo",Jardim Paulista,"Jardim Paulista, S�o Paulo",-46.657418,-23.571638
+6702159,30,S�o Paulo,"Rua Haddock Lobo, 1738, Cerqueira C�sar, Jardim Paulista, S�o Paulo 10000",Jardim Paulista,"Jardim Paulista, S�o Paulo",-46.66983333,-23.5655
+6711666,30,S�o Paulo,"Rua Jacques F�lix, 405, Vila Nova Concei�_�o, Moema, S�o Paulo",Moema,"Moema, S�o Paulo",-46.67133333,-23.59233333
+6701257,30,S�o Paulo,"Rua dos Pinheiros, 320, Pinheiros, S�o Paulo",Pinheiros,"Pinheiros, S�o Paulo",-46.68133333,-23.56483333
+6706211,30,S�o Paulo,"Pra�_a Dom Jos� Gaspar, 42, Rep�_blica, S�o Paulo 10000",Rep�_blica,"Rep�_blica, S�o Paulo",-46.64159444,-23.54664167
+6705858,30,S�o Paulo,"Edif�_cio It��lia - 41�� Andar, Avenida Ipiranga, 344, Rep�_blica, S�o Paulo",Rep�_blica,"Rep�_blica, S�o Paulo",-46.643425,-23.545163
+6701419,30,S�o Paulo,"Shopping Metr�� Santa Cruz - Piso L2, Rua Domingos de Morais, 2564, Vila Mariana, S�o Paulo","Shopping Metr�� Santa Cruz, Vila Mariana","Shopping Metr�� Santa Cruz, Vila Mariana, S�o Paulo",-46.63716667,-23.5995
+6703956,30,S�o Paulo,"Shopping Morumbi - Piso Lazer, Avenida Roque Petroni J�_nior, 1089, Santo Amaro, S�o Paulo","Shopping Morumbi, Santo Amaro","Shopping Morumbi, Santo Amaro, S�o Paulo",-46.698574,-23.622925
+6709580,30,S�o Paulo,"Avenida Nossa Senhora do Loreto, 1104, Vila Medeiros, Vila Maria, S�o Paulo",Vila Maria,"Vila Maria, S�o Paulo",-46.581672,-23.486535
+6703176,30,S�o Paulo,"Rua Concei�_�o Veloso, 56, Vila Mariana, S�o Paulo",Vila Mariana,"Vila Mariana, S�o Paulo",-46.63566667,-23.58516667
+6713772,30,S�o Paulo,"Rua Dom Jo�o Batista da Costa, 70, Vila S��nia, S�o Paulo",Vila S��nia,"Vila S��nia, S�o Paulo",-46.746958,-23.609207
+17284404,216,Albany,"2820 Meredyth Dr, Albany, GA 31707",Albany,"Albany, Albany",-84.221535,31.610387
+17284203,216,Albany,"2401 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.207095,31.608743
+17284105,216,Albany,"115 N Jackson St, Albany, GA 31701",Albany,"Albany, Albany",-84.154,31.5772
+17284302,216,Albany,"2700 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.2194,31.6158
+17284397,216,Albany,"2726 Ledo Rd Ste 10, Albany, GA 31707",Albany,"Albany, Albany",-84.206944,31.622412
+17284211,216,Albany,"814 N Slappey Blvd, Albany, GA 31701",Albany,"Albany, Albany",-84.1759,31.5882
+17284094,216,Albany,"2703 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.2193,31.616
+17284409,216,Albany,"1214 N Westover Blvd, Albany, GA 31707",Albany,"Albany, Albany",-84.2091458,31.6155186
+17284139,216,Albany,"2347 Dawson Road, Albany, GA 31707",Albany,"Albany, Albany",-84.205718,31.604905
+17284403,216,Albany,"629 N. Westover Blvd, Albany, GA 31707",Albany,"Albany, Albany",-84.223278,31.612121
+17284145,216,Albany,"2700 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.2191,31.6156
+17284150,216,Albany,"2526 Dawson Rd Ste A, Albany, GA 31707",Albany,"Albany, Albany",-84.212,31.6104
+17284158,216,Albany,"204 S Jackson St, Albany, GA 31701",Albany,"Albany, Albany",-84.1534,31.5751
+17284175,216,Albany,"547 N Westover Blvd, Albany, GA 31707",Albany,"Albany, Albany",-84.2228,31.6077
+17284179,216,Albany,"2733 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.2229,31.6185
+17284197,216,Albany,"2610 Dawson Rd, Albany, GA 31707",Albany,"Albany, Albany",-84.2164,31.6137
+17284241,216,Albany,"629 N Westover Blvd, Albany, GA 31707",Albany,"Albany, Albany",-84.2233,31.6118
+17284390,216,Albany,"2332 Whispering Pines Road, Albany, GA 31707",Albany,"Albany, Albany",-84.205025,31.605882

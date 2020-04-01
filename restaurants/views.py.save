@@ -1,0 +1,58 @@
+from django.shortcuts import render
+from django.template.loader import get_template
+from django.http import HttpResponse
+import csv
+import os
+csv_rest = os.path.join(os.path.dirname(__file__), 'restaurantsa9126b3.csv')
+
+cuisines = {}
+all_restaurants = []
+with open(csv_rest, newline='') as restcsvfile:
+    reader = csv.DictReader(restcsvfile)
+    for row in reader:
+        cur_cuisines = row['Cuisines'].split(", ")
+        cuisines[row['Restaurant ID']] = cur_cuisines[:]
+        all_restaurants.append((row['Restaurant ID'], row['Restaurant Name'], row['Average Cost for two'], row['Currency'], row['Has Table booking'], row['Has Online delivery'], row['Aggregate rating'], row['Votes']))
+
+def open_home(request):
+    request.session['rating'] = 'False'
+    request.session['avg_cost'] = 'False'
+    request.session['votes'] = 'False'
+    return index(request)
+
+def index(request):
+    rating_filter = request.session.get('rating', 'False')
+    cost_filter = request.session.get('avg_cost', 'False')
+    vote_filter = request.session.get('votes', 'False')
+    print(rating_filter, cost_filter, vote_filter)
+    show_all = True
+    try:
+        la = request.session['lat']                 #Location based restaurant search is incomplete due to time. All restaurants will be shown
+        ln = request.session['lon']
+        show_all = false
+    except KeyError:
+        print('[*] Showing all results')
+    if show_all:
+        sort_by = 6
+        if cost_filter == 'True':
+            sort_by = 2
+        if vote_filter == 'True':
+            sort_by = 7
+        print(sort_by)
+        return_result = sorted(all_restaurants, key=lambda r: float(r[sort_by]), reverse = True)
+        return render(request, 'homepage/results.html', context={'all_restaurants' : return_result, 'cuisines' : cuisines, 'user' : request.user})
+def search(request):
+    search_for = request.POST['search_input']
+    search_result = []
+    for res in all_restaurants:
+        if (res[1] == search_for):
+            search_result.append(res)
+    print(search_result)
+    return render(request, 'homepage/results.html',  context={'all_restaurants' : search_result, 'cuisines' : cuisines, 'user' : request.user})
+
+def filter(request):
+    q = request.GET.dict()
+    print(q.keys())
+    for f in q.keys():
+        request.session[f] = 'True'
+    return index(request)

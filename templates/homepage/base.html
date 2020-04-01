@@ -1,0 +1,97 @@
+
+{% load static %}
+{% load my_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	    <meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'homepage/index2.css' %}">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Source+Sans+Pro" rel="stylesheet"> -->
+
+</head>
+<body>
+		<nav class="navbar navbar-expand-sm flexer navbar-dark fixed-top nav-tech">
+			<a class="navbar-brand text-white" style="font-size:20px" href="/">
+				<kbd>TheBest</kbd>
+			</a>
+			<span class="col-2"></span>
+			<form class="form-inline col" action="/submit">
+				<input class="form-control mr-sm-6 flexer"  name="search_input" style="width:70%;border-radius: 20px;border:none;margin-right: 10px;" type="text" placeholder="Enter Name of Restaurant">
+				<button class="btn bg-darkg flexer" style="border-radius:40%;" type="submit" disabled><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/search-24.png" />
+				</button>
+			</form>
+			<ul class="nav navbar-nav">
+				<li><a class=" float-right nav-item p nav-link text-dark" style="font-size:15px;">
+					<kbd>About us</kbd>
+				</a>
+				</li>
+				<li>
+				<a class=" float-right nav-item p nav-link text-dark" style="font-size:15px;" >
+					<kbd> How to? </kbd>
+				</a>
+				</li>
+				<li><a class=" float-right nav-item p nav-link text-dark" style="font-size:15px;" >
+					<kbd>{% if user.is_authenticated %}Logout{% else %}Login{% endif %}</kbd>
+				</a>
+				</li>
+			</ul>
+		</nav>
+	<div class="float-left left-c bg-green flexer-1 rounded right">
+		
+	</div>
+	<div class="float-left left-c-1 bg-white flexer-1 rounded right">
+	
+	</div>
+	<div class="float-right right-c bg-yellow flexer-1 rounded left h-auto">
+		{% block filterForm %}
+		{% endblock %}
+	</div>
+	
+	<div class="result-container">
+		<div class="rr centered centered-pos">
+			{% block content %}
+			{% endblock content %}
+		</div>
+		
+			{% if page_obj.has_next %}
+				<a class="infinite-more-link" href="?{% param_replace page=page_obj.next_page_number %}"></a>
+			{% endif %}
+		<div class="blocks flexer-1 bg-white rounded " style="display:none;">
+			<div class="spinner-border text-dark" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+	</div>
+	
+    <script src="{% static 'homepage/jquery-3.4.1.min.js' %}"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+    <script src="{% static 'homepage/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'homepage/infinite.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'homepage/index2.js' %}"></script>
+    <script>
+        var infinite = new Waypoint.Infinite({
+      element: $('.centered-pos')[0],
+      onBeforePageLoad: function () {
+        $('.spinner-border').show();
+      },
+      onAfterPageLoad: function ($items) {
+        $('.spinner-border').hide();
+      }
+    });
+    </script>
+	<script>
+		var slider = document.getElementById("cost-for-two");
+		var sliderValue = document.getElementById("cost-range-value");
+		sliderValue.innerHTML = slider.value;
+		slider.oninput = function(){
+			sliderValue.innerHTML = this.value;
+		}
+	</script>
+</body>
+</html>
